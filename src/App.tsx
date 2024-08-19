@@ -1,7 +1,13 @@
 import "./App.style.scss";
+import { MainHeader } from "./components/MainHeader";
 
 function App() {
-  return <div>start</div>;
+  return (
+    <>
+      <MainHeader />
+      {/* <MainPage /> */}
+    </>
+  );
 }
 
 export default App;

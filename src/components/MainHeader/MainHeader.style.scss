@@ -1,0 +1,22 @@
+.header {
+    height: 44px;
+    background-color: #27272A;
+    padding: 10px 20px;
+    border: 1px solid #414144;
+
+    .navigation{
+        display: flex;
+        margin-left: 31px;
+        column-gap: 28px;
+
+        &__item {
+            color: #A1A1AA;
+        }
+
+        &__item_active {
+            color: #FFFFFF;
+            border-bottom: 1px solid #FFFFFF;
+            padding-bottom: 14px;
+        }
+    }
+}
